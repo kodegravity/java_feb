@@ -17,7 +17,6 @@ public class Calculator {
         System.out.println("5. Modulus");
         System.out.println("0. Exit");
 
-
         // take a user input
         System.out.println("Enter your choice from menu");
         int choice = scanner.nextInt();
@@ -54,7 +53,24 @@ public class Calculator {
         // Division
 
 
+/*
 
+1. create a calculator with switch case
+2.  IVR
+
+Press 1 for ENglish
+            1. Billing
+                1. Mobile
+                2. Internet
+            2. sales
+            3. technical support
+
+Press 2 for French
+
+
+
+
+ */
 
 
 

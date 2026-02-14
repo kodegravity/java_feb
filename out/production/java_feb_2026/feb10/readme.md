@@ -22,9 +22,18 @@ short
 
 
 
+## Operators
+Arithmetic operator 
++ = - / * 
 
 
+data types 
+1. Primitive                                   2. Non Primitive
+defined in java
+int, char, float, double                          Arrays, String, class  
 
+
+## data structure 
 
 
 

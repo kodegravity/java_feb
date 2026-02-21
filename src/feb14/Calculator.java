@@ -23,10 +23,9 @@ public class Calculator {
             int choice = scanner.nextInt();
 
             if(choice == 1) {
-                System.out.println("Enter the first Number ");
-                int x = scanner.nextInt();
-                System.out.println("Enter the second Number ");
-                int y = scanner.nextInt();
+                Calculator calculator = new Calculator();
+                calculator.sum();
+
 
             } else if(choice == 2) {
                 System.out.println("Enter the first Number ");
@@ -75,4 +74,18 @@ Press 2 for French
 
 
     }
+
+    public void sum(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the first Number ");
+        int x = scanner.nextInt();
+        System.out.println("Enter the second Number ");
+        int y = scanner.nextInt();
+
+        int sum = x + y;
+
+        System.out.println(sum);
+    }
+
+
 }

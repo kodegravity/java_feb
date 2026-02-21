@@ -49,6 +49,31 @@ displayMethod   ----> print all the details, call the methods..
 
 
 
+## Methods
+set of block of statements to perform a specific task 
+
+
+how to create a method?
+
+access_modifier return_type name(parameters, parameters...){
+
+return 
+}
+
+
+public void start(int type){
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

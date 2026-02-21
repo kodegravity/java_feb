@@ -19,6 +19,7 @@ public class Car {
 
     // methods  - behaviours
     public void drive(){
+
         System.out.println("You can drive the car from point A to B");
     }
 

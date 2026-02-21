@@ -38,6 +38,18 @@ laptop, chair, table
 instance of a class 
 
 
+Create a class 
+fields
+Laptop          --- > brand = "Dell", model, price, capacity
+
+methods         ---- > start , surfInternet, shutdown
+
+displayMethod   ----> print all the details, call the methods.. 
+        
+
+
+
+
 
 
 

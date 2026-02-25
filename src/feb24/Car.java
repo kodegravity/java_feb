@@ -1,7 +1,6 @@
 package feb24;
 
 public class Car {
-
     // instance variable
     String brand;
     String color;

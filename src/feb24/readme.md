@@ -47,3 +47,27 @@ create a printOrderDetails()
  Amount : 
 
 2. Iphone 
+
+
+
+Naming convention 
+1. camel casing 
+
+## class : 
+first letter should be upper case 
+OrderManagementSystem
+
+this is wrong : ordermanagementsystem
+
+
+## variables 
+first letter has to be lower case
+customerName
+X - CustomerName
+X - OrderID
+
+
+## methods 
+
+printOrderDetails()
+

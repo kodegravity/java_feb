@@ -71,3 +71,21 @@ X - OrderID
 
 printOrderDetails()
 
+
+
+## constructor chaining 
+
+we can call a constructor from another constructor 
+this - keyword 
+refer the current class variables 
+
+this()
+1. call the constructor from another constructor 
+2. this() should be the first statement in the constructor call 
+
+
+
+
+
+
+

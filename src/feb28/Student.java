@@ -22,4 +22,5 @@ public class Student {
     static {
         System.out.println("inside the static block"); //1
     }
+
 }

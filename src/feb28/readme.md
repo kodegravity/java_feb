@@ -79,8 +79,23 @@ bank.withdraw
 
 
 
+## SOLID principles 
+
+S - Single responsibility principle - only give one responsibility to a class 
+O - Open close principle 
+L - Liskov sub principle
+I - interface segregation principle
+D - Dependency inversion principle
 
 
+
+## Arrays 
+its a container that hold the fixed size sequence elents of same type 
+
+int[] arr;   // declare an array
+size of array is fixed 
+index starts from 0 
+lenth is total elements in the array 
 
 
 

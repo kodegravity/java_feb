@@ -46,6 +46,58 @@ static context              non static context
 
 
 
+## Problem 
+
+Bank Module
+instance 
+Account - accountHolderName, balance, accountNumber
+
+static 
+totalAccounts
+accountNumberGenerator
+interestRate
+
+methods
+1. deposit 
+
+public double deposit(double amount){
+return balance;
+}
+
+2. withdraw
+3. balance
+4. rateOfInterest
+5. totalAcccounts
+
+
+Objects 
+Bank bank = new Bank("Mike", 3243423.234, 2323);
+
+call methods here, 
+bank.deposit
+bank.withdraw
+
+
+
+## SOLID principles 
+
+S - Single responsibility principle - only give one responsibility to a class 
+O - Open close principle 
+L - Liskov sub principle
+I - interface segregation principle
+D - Dependency inversion principle
+
+
+
+## Arrays 
+its a container that hold the fixed size sequence elents of same type 
+
+int[] arr;   // declare an array
+size of array is fixed 
+index starts from 0 
+lenth is total elements in the array 
+
+
 
 
 

@@ -4,7 +4,7 @@ public class Student {
 
     {
         System.out.println("Inside the instance block");//2
-        System.out.println(x);
+
     }
 
     Student(){

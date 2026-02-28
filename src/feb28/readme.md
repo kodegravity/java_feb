@@ -46,6 +46,43 @@ static context              non static context
 
 
 
+## Problem 
+
+Bank Module
+instance 
+Account - accountHolderName, balance, accountNumber
+
+static 
+totalAccounts
+accountNumberGenerator
+interestRate
+
+methods
+1. deposit 
+
+public double deposit(double amount){
+return balance;
+}
+
+2. withdraw
+3. balance
+4. rateOfInterest
+5. totalAcccounts
+
+
+Objects 
+Bank bank = new Bank("Mike", 3243423.234, 2323);
+
+call methods here, 
+bank.deposit
+bank.withdraw
+
+
+
+
+
+
+
 
 
 

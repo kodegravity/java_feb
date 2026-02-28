@@ -84,7 +84,9 @@ this()
 2. this() should be the first statement in the constructor call 
 
 
-
+## types of variables 
+## static keyword 
+## arrays and Strings 
 
 
 

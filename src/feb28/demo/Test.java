@@ -32,6 +32,20 @@ find the maximum element in that array
 arr = 10, 53, 6, 2323, 43, 56
 
 find the minimum
+berore
+arr = 10, 53, 6, 2323, 43, 56
+
+can we reverse this array .
+
+after reverse
+56, 43, 2323, 6, 53, 10  - swapping
+
+
+
+// sort this array
+56, 43, 2323, 6, 53, 10
+
+
 
 
 

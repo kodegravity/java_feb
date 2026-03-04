@@ -98,6 +98,13 @@ index starts from 0
 lenth is total elements in the array 
 
 
+OOP
+1. inheritance
+2. polymorphism  - method overloading and method overriding 
+3. encapsulation 
+4. abstraction
+
+
 
 
 

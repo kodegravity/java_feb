@@ -31,7 +31,12 @@ it cannot be changed.
 StringBuilder and StringBuffer
 
 
+given a string, check if the given word is palindrome or not
+1. MADAM , RACECAR - palindrome 
 
+2. given a string and count number of vowels and consonants.
+
+3. programming ---- count the frequency of each character
 
 
 

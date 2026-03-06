@@ -39,7 +39,28 @@ file A ------- >   10 pages , 20 pages [pending... ]
 
 file B -------- > finish 
 
-## stash 
+## git stash
+
+
+## branches 
+
+separate line of development 
+pointer to commit 
+
+master
+    \
+    feature_sunny
+        
+
+
+
+1. created a branch 
+git branch branch_name
+
+2. switched to new branch
+  git checkout branch_name
+
+
 
 
 

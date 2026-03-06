@@ -34,6 +34,15 @@ git log
 snapshot of the code at specific point in time 
 
 
+file A ------- >   10 pages , 20 pages [pending... ]
+
+
+file B -------- > finish 
+
+## stash 
+
+
+
 
 
 

@@ -144,7 +144,14 @@ Student has a course
 Customer has-a Order
 Customer has a Address
 
+var keyword allows compiler to infer this as type
 
+int x = 10;
+
+var x = "Abc";
+var x = 10;
+
+var student = new Student();
 
 
 

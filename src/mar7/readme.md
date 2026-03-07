@@ -141,6 +141,9 @@ Employee has an adress
 Student has a course 
 
 
+Customer has-a Order
+Customer has a Address
+
 
 
 

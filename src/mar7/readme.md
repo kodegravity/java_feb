@@ -127,6 +127,31 @@ Manager   roles, manage()
 
 
 
+## Is - a relationship 
+
+Employee is a person 
+
+manager is a employee
+
+
+## Has - a relationship [Aggregation/Compostion]
+
+Employee has an adress 
+
+Student has a course 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

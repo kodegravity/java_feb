@@ -3,8 +3,8 @@ package mar7.inheritancedemo;
 public class EmpMain {
     public static void main(String[] args) {
 
-        var x = 10;
-        var mikeAddress = new Address(101, "Bathhurt street", "Toronto", "M1R 4f5", "ON", "CA");
+
+        Address mikeAddress = new Address(101, "Bathhurt street", "Toronto", "M1R 4f5", "ON", "CA");
         Address peterAddress = new Address(101, "Bathhurt street", "Toronto", "M1R 4f5", "ON", "CA");
         Address johnAddress = new Address(101, "Bathhurt street", "Toronto", "M1R 4f5", "ON", "CA");
         Address emmaAddress = new Address(101, "Bathhurt street", "Toronto", "M1R 4f5", "ON", "CA");

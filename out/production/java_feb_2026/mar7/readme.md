@@ -114,6 +114,51 @@ Class B
 Class C  
       
 
+Problem statement
+
+
+Person   name, age
+  |
+Employee  id , salary, email
+  |
+Manager   roles, manage()
+
+
+
+
+
+## Is - a relationship 
+
+Employee is a person 
+
+manager is a employee
+
+
+## Has - a relationship [Aggregation/Compostion]
+
+Employee has an adress 
+
+Student has a course 
+
+
+Customer has-a Order
+Customer has a Address
+
+var keyword allows compiler to infer this as type
+
+int x = 10;
+
+var x = "Abc";
+var x = 10;
+
+var student = new Student();
+
+
+
+
+
+
+
 
 
 

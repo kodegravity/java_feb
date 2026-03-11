@@ -57,7 +57,7 @@ can I change my previous password : Yes
 ## create a Bank class 
 
 1. balance 
-2. accountNumber 
+2. accountNumber  : should not be modified 
 3. accountType
 4. accountHolderName 
 
@@ -92,6 +92,19 @@ if the amount of withdraw is greater than total balance
 print error message
 
 4. press 4 to exit
+
+
+
+show case 
+inheritance 
+
+                Bank [rateOfInterest  = prime + bank ]
+    |           |               |
+ BMO          Scotia            RBC []
+rate of intest 
+
+
+
 
 
 

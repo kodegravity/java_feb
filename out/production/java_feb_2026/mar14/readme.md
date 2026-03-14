@@ -78,18 +78,6 @@ A   - method test()
 B   -   test()
 
 
-## Problem 
-
-                                 Employee calculateSalary()
-        |                           |                   |
-    FullTimeEmployee                PartTimeEmployee    ContactEmployee
-
-
-calculateSalary(hoursWorked , payRate)
-Hours            Pay
-FT : 40          30       
-PT : 20          25
-C  : 40          50e
 
 
 

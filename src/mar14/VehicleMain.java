@@ -3,6 +3,9 @@ package mar14;
 public class VehicleMain {
     public static void main(String[] args) {
 
+//        StringBuilder stringBuilder = new StringBuilder("Tes");
+//        stringBuilder.reverse();
+
         Vehicle vehicle = new Vehicle();
         vehicle.start();
 

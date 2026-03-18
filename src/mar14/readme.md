@@ -114,6 +114,12 @@ loose coupling
 2. using interfaces      [100%]
 
 
+            Nofication System  [abstract]sendNotification  receiveNotification
+    |           |               |
+Email           SMS             PushNotification
+sendNotification, receiveNotification
+Improvise a bit more on this 
+
 
 
 

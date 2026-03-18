@@ -18,6 +18,16 @@ by any class who is going to inherit from it.
 
 
 
+     ## Social Media 
+
+ postFeature  chatFeature     StoryFeature     ReelFeature  advertisementFeature
+
+
+    Facebook      Snapchat      TikTok      Whatsapp  Instagram   LinkedIn  Twitter
+
+                        
+                    MySocialMediaApp
+
 
 
 

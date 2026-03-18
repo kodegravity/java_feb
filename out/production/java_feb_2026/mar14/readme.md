@@ -78,6 +78,65 @@ A   - method test()
 B   -   test()
 
 
+## Problem
+                                 Employee calculateSalary()
+        |                           |                   |
+    FullTimeEmployee                PartTimeEmployee    ContactEmployee
+
+
+calculateSalary(hoursWorked , payRate)
+Hours            Pay
+FT : 40          30       
+PT : 20          25
+C  : 40          50e
+
+
+## Abstraction 
+Data hiding 
+
+hiding the internal implementation details and showing only the essential features.
+
+
+Car -----> important features,      ---- how engine works?
+Mobile -----> Features   --internal NO
+
+
+User knows what object does, but not how it does.
+
+
+adv:
+complexity 
+loose coupling 
+
+# How to achieve abstraction 
+
+1. using abstract class  [0- 100%] 
+2. using interfaces      [100%]
+
+
+            Nofication System  [abstract]sendNotification  receiveNotification
+    |           |               |
+Email           SMS             PushNotification
+sendNotification, receiveNotification
+Improvise a bit more on this 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

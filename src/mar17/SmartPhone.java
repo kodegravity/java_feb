@@ -1,6 +1,6 @@
 package mar17;
 
-public class SmartPhone implements Calculator, MobilePhone, MusicPlayer, Computer{
+public class SmartPhone extends Pager implements Calculator, MobilePhone, MusicPlayer, Computer{
     @Override
     public void calculate() {
         System.out.println("SmartPhone can calculate....");
@@ -36,5 +36,10 @@ public class SmartPhone implements Calculator, MobilePhone, MusicPlayer, Compute
     public void rewind() {
         System.out.println("You can rewind music on smartphone");
 
+    }
+
+    @Override
+    public void ringAlarm() {
+        System.out.println("Using pager ...");
     }
 }

@@ -20,7 +20,7 @@ by any class who is going to inherit from it.
 
      ## Social Media 
 
- postFeature  chatFeature     StoryFeature     ReelFeature  advertisementFeature
+ postFeature  chatFeature     StoryFeature     ReelFeature  advertisementFeature music
 
 
     Facebook      Snapchat      TikTok      Whatsapp  Instagram   LinkedIn  Twitter
@@ -28,7 +28,10 @@ by any class who is going to inherit from it.
                         
                     MySocialMediaApp
 
-
+## final 
+variable - constant 
+method - you cannot override that method 
+class - you cannot extend that class 
 
 
 

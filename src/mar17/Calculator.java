@@ -1,6 +1,6 @@
 package mar17;
 
-public interface Calculator {
+public interface Calculator{
 
     // all the variables in interface are
     // public static final by default

@@ -53,6 +53,47 @@ implement different payment methodsd
 UPI , creditCard, Amex etc 
 
 
+## packages 
+
+user defined
+
+
+in built - Java provided 
+lang , util, io, sql 
+
+import 
+
+##  Exception Handling 
+
+Exception
+it is  a condition which breaks the normal flow of execution of a program 
+
+and to maintain normal flow of execution of program is called as Exception Handling
+
+
+Error
+It is a situation which can be irrecoverable
+StackOverFlow Error?
+
+
+try 
+catch 
+finally 
+throw 
+throws 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

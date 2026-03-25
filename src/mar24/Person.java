@@ -1,7 +1,8 @@
 package mar24;
 
-public class Person {
+import mar7.Test;
 
+public class Person {
     void showInfo(){
         class Manager{
             void dutiesOfManager(){

@@ -35,7 +35,11 @@ class - you cannot extend that class
 
 
 
+## wrapper classes 
 
+converting primitive to Object types 
+int ----->                  Integer 
+Integer x = new Integer();
 
 
 

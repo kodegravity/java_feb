@@ -52,3 +52,25 @@ InsufficientFunds
 
 
 
+
+## Collections  
+
+data structures 
+framework which helps to manage and manipulate objects
+
+List            Set   Map 
+
+
+
+Generics
+
+
+
+
+
+
+
+
+
+
+

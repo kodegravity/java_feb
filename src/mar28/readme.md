@@ -52,3 +52,36 @@ InsufficientFunds
 
 
 
+
+## Collections  
+
+data structures 
+framework which helps to manage and manipulate objects
+
+List            Set   Map 
+
+
+
+## Generics
+to achieve type safety and flexibility to work with multiple type 
+of objects
+
+
+Name : String 
+Quantity : Integer
+
+Name : String 
+Price : Double
+
+Product<T, R> -----> item1 , item2 
+
+
+
+
+
+
+
+
+
+
+

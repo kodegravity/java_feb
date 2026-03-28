@@ -45,3 +45,10 @@ Integer.parseInt()
 4.NumberFormatException
 
 
+## Customized Exception 
+
+InsufficientBalance
+InsufficientFunds
+
+
+

@@ -34,3 +34,21 @@ Types of Exceptions
 1. checked     - Compile time exception
 2. unchecked   - Runtime exception
 
+# problem 
+write a program 
+Convert String -----> Number 
+Integer.parseInt()
+
+1.Arthemetic 
+2.NullPointer
+3.Arithmetic
+4.NumberFormatException
+
+
+## Customized Exception 
+
+InsufficientBalance
+InsufficientFunds
+
+
+

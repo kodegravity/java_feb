@@ -23,6 +23,9 @@ public class Demo {
         catch (Exception e){
             e.printStackTrace();
         }
+        finally {
+            System.out.println("Finally will execute always...");
+        }
         System.out.println("end of line");
     }
 }

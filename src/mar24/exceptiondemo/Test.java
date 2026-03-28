@@ -3,19 +3,20 @@ package mar24.exceptiondemo;
 public class Test {
     public static void main(String[] args) {
 
-        String s = "hello";
-        s = null;
 
+        int x = 10;
+        int y = 0;
         try {
-            System.out.println(s.toUpperCase());
+            int div = x / y;
         }
-        catch (NullPointerException e){
+        catch (ArithmeticException e){
             e.printStackTrace();
         }
-        System.out.println("Hello end of program");
+
+        System.out.println("End");
+
     }
 }
-
 /*
 x = take user input
 y take this input from scanner , 10,20,0,34,53

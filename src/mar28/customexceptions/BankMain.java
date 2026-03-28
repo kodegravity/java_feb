@@ -16,8 +16,9 @@ public class BankMain {
 
         System.out.println("****Withdraw*****");
         System.out.println("Enter the amount you want to withdraw");
-        double withdrawAmount = scanner.nextDouble();
-        double withdraw = bank.withdraw(withdrawAmount);
-        System.out.println("Balance after withdraw " + withdrawAmount + " is : $" +withdraw);
+       // double withdrawAmount = scanner.nextDouble();
+        bank.callWithdrawMethod();
+        //System.out.println("Balance after withdraw " + withdrawAmount + " is : $" +withdraw);
+        System.out.println(":end of last line");
     }
 }

@@ -1,21 +1,18 @@
 package march31.collectiondemo;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 
 public class Demo {
     public static void main(String[] args) {
 
-        List<Integer> oldList = new ArrayList<>();
+        List<Integer> oldList = new LinkedList<>(); //  100-200-300
         oldList.add(100);
         oldList.add(200);
         oldList.add(300);
         oldList.add(400);
         oldList.add(500);
 
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>(); // 100, 200, 300
         list.add(10);
         list.add(20);
         list.add(30);

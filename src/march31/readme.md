@@ -48,6 +48,73 @@ List[I]                   Set[I]                     Queue [I]
 
 
 
+           List  [Parent]
+ |                          |
+ArrayList               LinkedList
+[Child]                 [Child]
+
+// Upcasting
+List list = new ArrayList();
+
+
+List list = new LinkedList();
+
+
+## ArrayList 
+
+dynamic in nature, 
+size can grow 
+
+---- internally backed by Array 
+
+ArrayList list = new ArrayList(); // it will create arraylist of size 10 by default 
+
+java 7 : 
+
+ n + n/2 +1
+ array is full to threshold 
+10 + 10/2 + 1 = 16
+new array list of size 16 will be created
+
+
+Java 8 :
+ArrayList list = new ArrayList();  
+list.add(10);   // it will create arraylist of size 10
+
+
+## LinkedList 
+
+LinkedList does not have indexes
+every node has address of the next node
+
+1. singly linkedList 
+2. Doubly LinkedList 
+3. circular linkedList
+
+
+
+Search 
+
+Manipulation / add or remove elements
+
+        ArrayList                                               LinkedList 
+        search is better using arraylist                        not recommended
+add                                                             better in manipulation
+
+
+
+## Create a customized list on the following 
+
+Product - ProductName, sku, price
+
+class Product{
+ProductName, sku, price
+}
+
+List<Product> products = new ArrayList();
+add, remove, set, get 
+
+
 
 
 

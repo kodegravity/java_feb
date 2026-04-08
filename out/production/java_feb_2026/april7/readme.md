@@ -32,3 +32,15 @@ it maintains insertion order
 yes - null is allowed
 
 
+## loop through list set 
+
+for loop 
+for each loop 
+iterator 
+
+
+
+
+
+
+

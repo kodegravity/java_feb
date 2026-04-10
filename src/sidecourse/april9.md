@@ -11,3 +11,4 @@ Java code ------> build [Maven / Gradle ]----> jar file  -----> release  ----> P
 Jenkins , Circle CI , Github actions
 
 Push code --------<> Handled by a pipeline <> ------------> Production
+""

@@ -79,6 +79,13 @@ value > max
 3. remove product with price less than 500
 
 
+## Problem 
+
+Frequency of Java word.
+
+hello Java , I am learning Java to become Java developer and 
+Proficient in Java? More Java
+
 
 
 

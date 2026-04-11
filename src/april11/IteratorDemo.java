@@ -1,13 +1,11 @@
 package april11;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class IteratorDemo {
     public static void main(String[] args) {
-        Map<String, Integer> stock = new HashMap<>(32,.5f);
+        // parent                           Child
+        TreeMap<String, Integer> stock = new TreeMap<>();
         stock.put("Microsoft", 430);  // entry
         stock.put("Uber", 900);
         stock.put("Oracle", 450);

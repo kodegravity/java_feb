@@ -37,6 +37,21 @@ yes - null is allowed
 for loop 
 for each loop 
 iterator 
+ListIterator - backward and forward both 
+
+
+Problem 
+given an array list 
+List = "Orane", "Green","Yellow", "Blue"
+
+sort this given list
+
+2. find the max and min element from the given list 
+  10,2,43,65,234,564,786,873,23
+
+3. remove the given element from the list : 
+take user input and remove the elemnet.
+use for loop and iterator 
 
 
 

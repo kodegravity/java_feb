@@ -62,6 +62,20 @@ How to create HashMap
 
 
 
+## Problem 
+
+Inventory 
+Product -------   Price 
+
+Laptop            1500
+Mobile            1800
+Charger           40
+Keyboard          200
+
+find the item with Highest Price? 
+
+
+
 
 
 

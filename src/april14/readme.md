@@ -38,4 +38,20 @@ this.marks - other.marks
 100 -   85  = 15 + 
 
 
+Product class - id, name, price 
+sort the products by price, ascending and decending 
+
+
+
 ## Comparator 
+
+Java 8
+annoymous inner class 
+
+Functional interface 
+Lambdas
+
+
+
+
+

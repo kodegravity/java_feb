@@ -53,5 +53,21 @@ Lambdas
 
 
 
+Maven is tool, 
+
+
+Source code -------> Maven --------> Jar file [Java archeive]
+
+mvn clean 
+mvn install - jar file 
+mvn package 
+mvn test 
+
+
+
+
+
+
+
 
 

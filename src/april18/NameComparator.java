@@ -7,4 +7,6 @@ public class NameComparator implements Comparator<Product> {
     public int compare(Product o1, Product o2) {
         return 0;
     }
+
+
 }

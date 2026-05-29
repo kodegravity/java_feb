@@ -65,6 +65,61 @@ select * from CUSTOMER;
 select * from CUSTOMER where CUSTOMER_ADDRESS = 'UK';
 
 
+-- fetch all the customers from USA or Germany
+
+select * from CUSTOMER where CUSTOMER_ADDRESS = 'USA' OR CUSTOMER_ADDRESS = 'GERMANY';
+
+-- fetch all the customers which are not from USA
+select * from CUSTOMER where CUSTOMER_ADDRESS != 'USA';
+
+
+
+## Sort data
+
+-- sort all the products with decending price
+select * from PRODUCT order by PRICE DESC ;
+
+-- sort all the products with acending price
+select * from PRODUCT order by PRICE ASC ;
+
+
+
+
+-- functions : aggretate functions : SUM, COUNT, AVG
+-- find total number of products
+
+select count(*) from PRODUCT;
+
+
+-- find the count of the product whose price is between 5k - 50K
+
+select count(*) from PRODUCT where PRICE > 100 and PRICE < 50000;
+
+select * from PRODUCT;
+
+-- find the total stock [number of items ]
+-- sum
+select SUM(STOCK) from PRODUCT;
+
+-- total amount of inventory ?
+
+select SUM(PRICE) from PRODUCT;
+
+-- Average price of the products
+select AVG(PRICE) from PRODUCT;
+
+
+-- price of the MAX product
+
+select MAX(PRICE) from PRODUCT;
+select MAX(SALARY) from EMPLOYEE;
+
+-- find the max salary from the employee table 
+
+
+
+
+
 
 
 

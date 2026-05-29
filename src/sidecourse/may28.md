@@ -114,7 +114,57 @@ select AVG(PRICE) from PRODUCT;
 select MAX(PRICE) from PRODUCT;
 select MAX(SALARY) from EMPLOYEE;
 
--- find the max salary from the employee table 
+-- find the max salary from the employee table
+
+
+
+
+
+## Operators
+select * from CUSTOMER;
+-- fetch all the customers from USA, India, Italy, Japan
+select * from CUSTOMER where CUSTOMER_ADDRESS in ('USA','India','Italy','Japan');
+
+select * from ORDERS;
+-- fetch all the order between customer id 200- 210
+-- between
+select * from ORDERS where CUSTOMER_ID between 201 AND 210;
+
+
+-- find all the customers who's name starts with 'J'
+-- LIKE
+select * from CUSTOMER;
+select * from CUSTOMER where CUSTOMER_NAME like '%a%';
+
+
+
+
+
+## create data
+
+-- create database
+-- create database database_name;
+create database student;
+
+show databases;
+
+use student;
+
+show tables;
+
+-- create table
+
+create table Student (id int, name varchar(255), course varchar(255));
+
+-- insert into student table
+insert into Student(id, name, course) values ('101', 'Nikhil', 'Java');
+
+
+select * from Student;
+
+
+
+
 
 
 

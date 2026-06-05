@@ -228,6 +228,29 @@ age < 18
 
 
 
+## JOINS
+Inner join 
+
+
+select
+c.CUSTOMER_ID,
+c.CUSTOMER_NAME,
+o.TOTAL_AMOUNT
+from CUSTOMER c
+inner join ORDERS o
+on c.CUSTOMER_ID = o.CUSTOMER_ID ;
+
+
+
+
+left join 
+right join 
+Full Join 
+self Join
+
+
+
+
 
 
 

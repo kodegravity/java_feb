@@ -163,6 +163,75 @@ insert into Student(id, name, course) values ('101', 'Nikhil', 'Java');
 select * from Student;
 
 
+===== JOINS ===========
+
+combine two or more tables to agrregate some information 
+it should have a related column between them 
+
+Constraints: 
+PRIMARY key   : A column which have unique values and no null values 
+UNIQUE
+NOT NULL 
+FOREIGN Key   : A primary key in one table, acts as foreign key in another table 
+CHECK          : check condition, age = 18 
+DEFAULT       :   default value for the absent data   
+
+
+
+--------- JUNE 4 ---------------
+
+create table
+Student (id int PRIMARY KEY,
+name varchar(255),
+course varchar(255) NOT NULL,
+email varchar(255),
+phone varchar(255),
+sinNumber varchar(255) UNIQUE);
+
+insert into Student(id, name, course) values ('101', 'Nikhil', 'Java');
+
+insert into Student (id, name, course, email, phone, sinNumber) VALUES (1, 'nikhil', 'java', 'e@mail.com', '12345678', '987654321')
+insert into Student
+(id,
+name,
+course,
+email,
+phone,
+sinNumber)
+VALUES (4,
+'nikhil',
+'e@mail.com',
+'12345678',
+'9876543')
+
+
+desc Student;
+
+
+-- ALTER
+
+alter table Student
+modify course varchar(255) NOT NULL;
+
+
+INSERT INTO Student (id, name, course, email, phone, sinNumber)
+VALUES (1, 'Alex Smith', NULL, 'alex@email.com', '555-0123', '123456789');
+
+
+TASK 
+
+1. alter the table , add column name age with Check constraint 
+try to insert the  value which will fail 
+
+age < 18
+
+
+
+
+
+
+
+
 
 
 
